@@ -1,0 +1,40 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.container-bloco1,
+.container-bloco2 {
+  border: 1px solid #aaaaaa;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90%;
+}
+
+.linha {
+  display: flex;
+  gap: 10px;
+}
+
+.item-azul {
+  flex: 1;
+  border: 2px solid #00ffff;
+  height: 40px;
+}
+
+.item-laranja {
+  flex: 1;
+  border: 2px solid #ffa500;
+  height: 40px;
+}
+
+.item-roxo {
+  flex: 1;
+  border: 2px solid #ee82ee;
+  height: 40px;
+}

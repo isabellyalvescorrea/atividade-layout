@@ -1,5 +1,82 @@
-#container-itens {
-    border: solid 1px black;
-  width: 80px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+ #container {
+   display: flex;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+
+.bloco-header {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  height: 80px;
+}
+
+.bloco-menu {
+  display: flex;
+  width: 30%;
+  height: 80px;
+}
+
+.menu-item {
+  border: 1px solid black;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.bloco-vazio {
+  border: 1px solid black;
+  width: 30%;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.bloco-conteudo {
+  display: flex;
+  margin: 10px 0;
+  column-gap: 10px;
+  width: 30%;
+}
+
+.coluna-esquerda {
+  display: flex;
+  flex-direction: column;
+ width: 70%;
+  border: 1px solid black;
+}
+
+.coluna-direita {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid black;
+}
+
+.item-coluna {
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  height: 100px;
+}
+
+.bloco-footer {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  height: 80px;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }

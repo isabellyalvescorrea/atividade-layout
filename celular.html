@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>layout celular</title>
-    <link rel="stylesheet" href="styles/celular.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout celular</title>
+  <link rel="stylesheet" href="styles/celular.css">
 </head>
 <body>
-    <div id="container-itens">
-    <div>HEORER</div>
-  <div>
-    <div>SOBRE</div>
-    <div>PROJETOS</div>
-  </div>
+  <div id="container">
+  <header class="bloco-header">HEORER</header>
+
+  <div class="bloco-menu">
+    <p class="menu-item">SOBRE</p>
+    <p class="menu-item">PROJETOS</p>
   </div>
 
-  <div>
-    <div class="item1"></div>
-    <div class="item1"></div>
-    <div class="item1"></div>
+  <div class="bloco-vazio"></div>
+
+  <div class="bloco-conteudo">
+    <div class="coluna-esquerda">
+      <div class="item-coluna"></div>
+      <div class="item-coluna"></div>
+      <div class="item-coluna"></div>
+    </div>
+    <div class="coluna-direita">
+      <div class="item-coluna2"></div>
+      <div class="item-coluna2"></div>
+    </div>
   </div>
 
-  <div>
-   <div class="item2"></div>
-   <div class="item2"></div>
-   <div class="item2"></div>
-  </div>
-
-  <footer>FOOTER</footer>
+  <footer class="bloco-footer">FOOTER</footer>
+   </div>
 </body>
 </html>
